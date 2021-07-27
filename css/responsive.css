@@ -1,0 +1,2635 @@
+
+/*--media query--*/
+@media screen and (max-width:320px){
+
+       /*--home--*/
+       .top-header ul li a span{
+
+        display: none;
+       
+    }
+
+    .navbar-light .navbar {
+        padding: 0;
+        margin: 0 10px;
+    }
+    .navbar-light .navbar-nav {
+        margin-right:0;
+        text-align: center;
+    }
+
+    
+    .toggle-navbar{
+ 
+        display:block;
+        opacity:0;
+        visibility: hidden;
+    }
+    .toggle-navbar.active{
+ 
+        opacity:1;
+        visibility:visible;
+    }
+    .navbar-light .navbar-brand img {
+        width: 130px;
+      
+    }
+    .navbar-light .navbar-left .nav-item {
+        margin-left: 20px;
+    }
+    .navbar-light .navbar-left  .nav-item:nth-child(3){
+ 
+        display:none;
+    }
+    .navbar-light .navbar-left .nav-item .modalup{
+ 
+        display: none;
+    }
+    .navbar-light .navbar-left .nav-item  .user-icon{
+ 
+        display:block;
+    
+    }
+    .navbar-nav .submenu{
+
+        width: 190px !important;
+    }
+    .navbar-nav .submenu.active{
+ 
+        opacity:1;
+        visibility: visible;
+        transform: translateY(13px);
+      
+    }
+ 
+    .navbar-light .navbar .nav-toggle{
+ 
+        display: block;
+    }
+    .modal .modal-header {
+        height: 57px;
+    }
+    .modal .modal-header ul li a {
+        font-size: 12px;
+    }
+
+    .rebort {
+
+        width: 95%;
+    }
+    
+
+    .rebort .container{
+
+        padding-left:0;
+        padding-right: 0; 
+        font-size:10px;
+    }
+    .checkmark {
+
+        height:15px;
+        width: 15px;
+    }
+    .rebort .container .text {
+        position: relative;
+        bottom: 2px;
+    }
+    .rebort img {
+        width: 25px;
+        margin: 0 auto;
+        display: block;
+    }
+   .modal .modal-body .forget {
+    float: unset !important;
+    display: block;
+    margin-top: 6px;
+   }
+    .search-sec .form-inline {
+         border:unset;
+         border-radius: 4px;
+    }
+    .search-sec .first-search-form{
+ 
+        display: none;
+    }
+    .search-sec .second-search-form{
+ 
+        display: block;
+    }
+    .search-sec .second-accordion{
+ 
+        display: block;
+    }
+    .search-sec .form-group {
+        position: relative;
+        margin-bottom: 0;
+    }
+    .search-sec .col-sm-12{
+     margin-bottom: 30px;
+    }
+    .search-sec .advance-btn,
+    .search-sec .input-group-prepend .input-group-text {
+        color: #cccccc !important;
+        font-size: 18px;
+      
+    }
+ 
+    .search-sec input[type="search"] {
+        width: 150px;
+        padding: .375rem 0;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+   
+    .search-sec input[type="search"]::placeholder{
+        
+        color:#a7a1a1;
+    }
+ 
+    .search-sec .input-group-prepend {
+        position: relative;;
+        top:0;
+    }
+ 
+    .accordion .first-body{
+        border-top: 1px solid #cccccc;
+ 
+    }
+    .search-sec .btnn {
+        border-radius: 4px 4px 4px 4px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .search-sec .btnn i{
+    text-align: right;
+    font-size: 12px;
+    position: relative;
+    left: 35%;
+    }
+
+    .main-slide {
+
+        height: 100vh;
+       }
+       
+       .main-slide iframe{
+    
+        height: 100vh;
+       }
+       .main-slide .all-side {
+       
+        padding:35px 50px 0;
+    }
+       .main-slide .side-2 {
+        float: unset;
+    }
+        .main-slide .overlay .side img {
+            width: 65px;
+    }
+    .main-slide .overlay .side h2 {
+        font-size:15px;
+    }
+    .main-slide .overlay .side p {
+        font-size: 12px;
+    }
+    .main-slide .overlay .side h3 {
+        font-size: 15px;
+    }
+    .advance-estate-sec .menuSlider a {
+     
+    padding: 1px 3px;
+    }
+    .advance-estate-sec .head h2 {
+        font-size: 17px;
+    }
+    .advance-estate-sec .image .bottom{
+        top:45%;
+    }
+    .advance-estate-sec .image .b2{
+ 
+        top:35%;
+ 
+    }
+
+    .advance-estate-sec .image .bottom .list-inline {
+        margin-left:70px;
+    }
+    .advance-estate-sec .image .bottom .actions{
+ 
+        margin-left:15px;
+ 
+    }
+    .area-kind-sec .image img {
+        height: 100% !important;
+    }
+    .area-kind-sec .image .overlay .content {
+       
+        padding: 60px 0;
+    }
+    .add-estate .content .add-now{
+ 
+        width:85%;
+    }
+    .add-estate .search-estate .text h2 {
+ 
+        text-align: center;
+    }
+    .add-estate .search-estate {
+        
+        text-align: center;
+    }
+    .add-estate .search-estate ul{
+ 
+        margin-bottom:30px;
+    }
+    footer .col-lg-3 {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: 0;
+        margin-bottom:30px;
+    }
+    footer .footer-bottom {
+       
+        text-align: center;
+    }
+    footer .footer-bottom .end-2 {
+        float:unset;
+    }
+    /*--//home--*/
+     /*--add estate--*/
+
+     .description-sec {
+    
+        padding: 40px 15px;
+    }
+    
+    .description-sec .accordion .card-header {
+       
+        padding: 30px 21px 20px 0px !important;
+    }
+    .inputs {
+        padding: 10px 0 50px !important;
+    }
+    .description-sec .uploading {
+        padding: 21px 0 40px !important;
+    }
+    
+    .description-sec .accordion .details-form .form-group {
+        padding: 2px 0px !important; 
+    }
+    .description-sec .accordion .details-form {
+        padding: 10px 7px 30px !important;
+    }
+    .description-sec .accordion .check-form {
+        padding: 21px 7px 50px !important;
+    }
+
+   .accordion .col-md-6 {
+    padding-right: 15;
+}
+.description-sec .dropdown {
+    width: 100% !important;
+}
+
+
+   /*--//add estate--*/
+    /*--contact--*/
+    .contact-sec .content {
+    
+        margin: 30px 0px 0 
+    }
+    .rebort img {
+        width: 16px;
+    }
+       .contact-sec .rebort {
+       
+        width: 100%;
+     }
+     .contact-sec .rebort .text {
+       
+        font-size: 12px;
+     }
+
+     .rebort p, .rebort a {
+        
+        font-size: 9px;
+     }
+    /*--//contact--*/
+    /*--about--*/
+    .about-sec, .contact-sec,.agents-sec{
+        padding: 0 !important;
+    }
+    .agents-sec .content, .about-sec .content, .contact-sec .content {
+  
+        width: 100%;
+        margin: 30px 0px 0 0;
+    }
+    .about-sec .content .components .col-lg-6:nth-child(2) p {
+        text-align: right;
+    }
+    /*--//about--*/
+    /*--agents--*/
+    .agents-sec, 
+    .about-sec, 
+    .contact-sec,
+    .compare-estate-sec, 
+    .myaccount-sec {
+        padding: 0 !important;
+    }
+.agents-sec .col-md-12{
+
+    margin:0 auto 30px;
+    text-align: center;
+}
+
+/*--//agents--*/
+/*--first agents--*/
+.agents-sec .text h2, 
+.about-sec .text h2,
+ .contact-sec .text h2, 
+ .compare-estate-sec .text h2,
+  .myaccount-sec .text h2 {
+    font-size: 20px;
+}
+.agents-sec hr, .agents-related-sec hr {
+    width: 100%;
+}
+.every-agents-sec  .col-md-12 {
+    margin: 0 auto 30px;
+}
+.agents-related-sec .all-sec {
+    width: 100%;
+    margin: 0 0;
+}
+.agents-related-sec .agents-related-content .image .bottom{
+
+    top:75%;
+}
+.agents-related-sec .agents-related-content .content .details-button {
+    position: absolute;
+    left: 5%;
+    bottom: 4%;
+    
+}
+.every-agents-sec .form input, .every-agents-sec .form textarea {
+    width: 100%;
+}
+.every-agents-sec .rebort {
+    width: 100%;
+}
+.agents-related-sec .agents-related-content .content .details-button a{
+
+
+    font-size:12px;
+    padding: 6px 5px !important;
+}   
+.agents-related-sec .agents-related-content .content .details-button a i,
+ .sale-rent-sec .content .details-button a i {
+    margin-right: 5px;
+} 
+.agents-related-sec .agents-related-content .content .top-list:nth-child(2), 
+.sale-rent-sec .content .top-list:nth-child(2) {
+  
+    right: 0%;
+}
+.every-agents-sec .overlay {
+   
+    transform: translate(-25%,20%);
+}
+/*--//first agents--*/
+/*--strap--*/
+.strap-sec .col-lg-4 {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+}
+/*--//strap--*/
+.strap-sec .content .contact {
+  
+    width: 85%;
+}
+/*--for sale--*/
+.navbar-tabs .nav-tab {
+    float:unset;
+    margin: 7px 15px 0 0;
+}
+.sale-rent-sec .col-lg-8 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.sale-rent-sec .real-estates {
+    margin: 30px 0px 0 0;
+}
+
+.sale-rent-sec .col-md-12{
+
+    margin-bottom: 30px;
+}
+.sale-rent-sec .content .image {
+    width: 100%;
+}
+.sale-rent-sec .content .image .bottom {
+
+    top: 75% !important;
+}
+.sale-rent-sec .content .info p, 
+.sale-rent-sec .second-group .content .info p {
+    font-size: 11px;
+}
+
+.sale-rent-sec .col-sm-4 {
+    padding-left: 15px;
+}
+.owl2 .owl-nav button.owl-next {
+    margin-left: 125px;
+}
+.sale-rent-sec .content .details-button {
+   
+    margin-top: -10px;
+}
+
+
+.sale-rent-sec .content .details-button a{
+
+    font-size:11px;
+    padding: 6px 10px !important;
+}
+
+/*--//for sale--*/
+/*--first estate--*/
+
+.estate-header ul {
+    margin-right:0;
+}
+.estate-header .left {
+    float: unset;
+    margin: 20px auto 0;
+    display: block;
+    text-align: center;
+}
+.share-social {
+   
+    left:66%;
+}
+.estate-header ul .share-social a {
+    display: table;
+}
+.estate-header ul .share-social::before {
+
+    position: absolute;
+    top: 5%;
+}
+.estate-details .image .registration, .details-sec .registration {
+    position: unset;
+    top: 0;
+    right: 0;
+    width: 100%;
+    margin-top: 30px;
+    height: unset !important;
+
+}
+.estate-details .image .overlay-list {
+  
+    margin: 20px;
+}
+.details-sec .first-group .content {
+    padding:15px;
+}
+.details-sec .adresss .inline,
+.details-sec .content .alert .inline,
+.details-sec .features .inline{
+    display: block !important;
+}
+
+.details-sec .content .alert ul {
+    margin-right:0;
+}
+.details-sec .content .list {
+    margin: 0 0
+}
+
+.details-sec .rebort {
+    width: 100%;
+}
+.morris-hover.morris-default-style{
+
+    right:0 !important;
+    left: unset !important;
+}
+
+/*--//first estate--*/
+/*--my account--*/
+.myaccount-sec {
+    padding: 0 10px;
+}
+.myaccount-sec .myaccount-content, 
+.myaccount-sec .estate-notfound {
+    margin: 30px 0px 0 0;
+}
+.myaccount-sec  .navbar-tabs .nav-tab {
+    
+    margin:20px 0px 0;
+}
+.myaccount-sec .myaccount-content ul li a {
+    
+padding: 20px 15px !important;
+}
+/*--//my account--*/
+/*--compare--*/
+.compare-estate-sec img{
+
+    width:unset;
+    height: unset;
+}
+/*--//compare--*/
+}
+@media screen and (max-width:375px) and (min-width:321px){
+
+      /*--home--*/
+      .top-header ul li a span{
+
+        display: none;
+       
+    }
+ 
+    .navbar-light .navbar {
+        padding: 0;
+        margin: 0 10px;
+    }
+    .navbar-light .navbar-nav {
+        margin-right:0;
+        text-align: center;
+    }
+    .toggle-navbar{
+ 
+        display:block;
+        opacity:0;
+        visibility: hidden;
+    }
+    .toggle-navbar.active{
+ 
+        opacity:1;
+        visibility:visible;
+    }
+    .navbar-light .navbar-left .nav-item {
+        margin-left: 20px;
+    }
+    .navbar-light .navbar-left  .nav-item:nth-child(3){
+ 
+        display:none;
+    }
+    .navbar-light .navbar-left .nav-item .modalup{
+ 
+        display: none;
+    }
+    .navbar-light .navbar-left .nav-item  .user-icon{
+ 
+        display:block;
+    
+    }
+    .navbar-nav .submenu.active{
+ 
+        opacity:1;
+        visibility: visible;
+        transform: translateY(13px)
+    }
+ 
+    .navbar-light .navbar .nav-toggle{
+ 
+        display: block;
+    }
+    .rebort {
+        
+        width: 95%;
+    }
+    .rebort .container{
+
+        padding-left:0;
+        padding-right: 0; 
+    }
+    .search-sec .form-inline {
+         border:unset;
+         border-radius: 4px;
+    }
+    .search-sec .first-search-form{
+ 
+        display: none;
+    }
+    .search-sec .second-search-form{
+ 
+        display: block;
+    }
+    .search-sec .second-accordion{
+ 
+        display: block;
+    }
+    .search-sec .form-group {
+        position: relative;
+        margin-bottom: 0;
+    }
+    .search-sec .col-sm-12{
+     margin-bottom: 30px;
+    }
+    .search-sec .advance-btn,
+    .search-sec .input-group-prepend .input-group-text {
+        color: #cccccc !important;
+        font-size: 18px;
+      
+    }
+ 
+    .search-sec input[type="search"] {
+        width: 235px;
+        padding: .375rem 0;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+   
+    .search-sec input[type="search"]::placeholder{
+        
+        color:#a7a1a1;
+    }
+ 
+    .search-sec .input-group-prepend {
+        position: relative;;
+        top:0;
+    }
+ 
+    .accordion .first-body{
+        border-top: 1px solid #cccccc;
+ 
+    }
+    .search-sec .btnn {
+        border-radius: 4px 4px 4px 4px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .search-sec .btnn i{
+    text-align: right;
+    font-size: 12px;
+    position: relative;
+    left: 45%;
+    }
+
+    .main-slide {
+
+        height: 100vh;
+       }
+       
+       .main-slide iframe{
+    
+        height: 100vh;
+       }
+       .main-slide .all-side {
+       
+        padding:35px 50px 0;
+    }
+       .main-slide .side-2 {
+        float: unset;
+    }
+        .main-slide .overlay .side img {
+            width: 65px;
+    }
+    .main-slide .overlay .side h2 {
+        font-size:15px;
+    }
+    .main-slide .overlay .side p {
+        font-size: 12px;
+    }
+    .main-slide .overlay .side h3 {
+        font-size: 15px;
+    }
+    .advance-estate-sec .image .bottom{
+        top:65%;
+    }
+    .advance-estate-sec .image .b2{
+ 
+        top:55%;
+ 
+    }
+    .advance-estate-sec .image .bottom .list-inline {
+        margin-left:70px;
+    }
+    .advance-estate-sec .image .bottom .actions{
+ 
+        margin-left:15px;
+ 
+    }
+    .area-kind-sec .image img {
+        height: 250px !important;
+    }
+    .area-kind-sec .image .overlay .content {
+       
+        padding: 100px 0;
+    }
+ 
+    .add-estate .content .add-now{
+ 
+        width:65%;
+    }
+    .add-estate .search-estate .text h2 {
+ 
+        text-align: center;
+    }
+    .add-estate .search-estate {
+        
+        text-align: center;
+    }
+    .add-estate .search-estate ul{
+ 
+        margin-bottom:30px;
+    }
+    footer .col-lg-3 {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: 0;
+        margin-bottom:30px;
+    }
+    
+    /*--//home--*/
+      /*--add estate--*/
+      .description-sec {
+    
+        padding: 40px 15px;
+    }
+    
+    .description-sec .accordion .card-header {
+       
+        padding: 30px 21px 20px 0px !important;
+    }
+    .inputs {
+        padding: 10px 0 50px !important;
+    }
+    .description-sec .uploading {
+        padding: 21px 0 40px !important;
+    }
+    
+    .description-sec .accordion .details-form .form-group {
+        padding: 2px 0px !important; 
+    }
+    .description-sec .accordion .details-form {
+        padding: 10px 7px 30px !important;
+    }
+    .description-sec .accordion .check-form {
+        padding: 21px 7px 50px !important;
+    }
+      
+   .accordion .col-md-6 {
+    padding-right: 15;
+   }
+   .description-sec .dropdown {
+    width: 100% !important;
+   }
+   /*--//add estate--*/
+    /*--contact--*/
+    .contact-sec .content {
+    
+        margin: 30px 0px 0 
+       }
+       .contact-sec .rebort {
+       
+          width: 100%;
+    }
+    /*--//contact--*/
+    /*--about--*/
+    .view {
+       
+        margin: 0 2px;
+    }
+    .about-sec, .contact-sec,.agents-sec{
+        padding: 0 !important;
+    }
+    .agents-sec .content, .about-sec .content, .contact-sec .content {
+  
+        width: 100%;
+        margin: 30px 0px 0 0;
+    }
+    .about-sec .content .components .col-lg-6:nth-child(2) p {
+        text-align: right;
+    }
+    /*--//about--*/
+    /*--agents--*/
+    .agents-sec, 
+    .about-sec, 
+    .contact-sec,
+    .compare-estate-sec, 
+    .myaccount-sec {
+        padding: 0 !important;
+    }
+.agents-sec .col-md-12{
+
+    margin:0 auto 30px;
+    text-align: center;
+}
+
+/*--//agents--*/
+/*--first agents--*/
+.agents-sec .text h2, 
+.about-sec .text h2,
+ .contact-sec .text h2, 
+ .compare-estate-sec .text h2,
+  .myaccount-sec .text h2 {
+    font-size: 20px;
+}
+.agents-sec hr, .agents-related-sec hr {
+    width: 100%;
+}
+.every-agents-sec  .col-md-12 {
+    margin: 0 auto 30px;
+}
+.agents-related-sec .all-sec {
+    width: 100%;
+    margin: 0 0;
+}
+.agents-related-sec .agents-related-content .image .bottom{
+
+    top:80%;
+}
+.agents-related-sec .agents-related-content .content .details-button {
+    position: absolute;
+    left: 5%;
+}
+.every-agents-sec .form input, .every-agents-sec .form textarea {
+    width: 100%;
+}
+.every-agents-sec .rebort {
+    width: 100%;
+}
+.agents-related-sec .agents-related-content .content .top-list:nth-child(2), 
+.sale-rent-sec .content .top-list:nth-child(2) {
+  
+    right: 0%;
+}
+.every-agents-sec .overlay {
+   
+    transform: translate(-25%,20%);
+}
+/*--//first agents--*/
+/*--strap--*/
+.strap-sec .col-lg-4 {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+}
+.strap-sec .content .contact {
+  
+    width: 85%;
+}
+/*--//strap--*/
+/*--for sale--*/
+.sale-rent-sec .col-lg-8 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.sale-rent-sec .real-estates {
+    margin: 30px 0px 0 0;
+}
+.sale-rent-sec .col-md-12{
+
+    margin-bottom: 30px;
+}
+.sale-rent-sec .content .image {
+    width: 100%;
+}
+.sale-rent-sec .content .image .bottom {
+
+    top: 85% !important;
+}
+
+.sale-rent-sec .col-sm-4 {
+    padding-left: 15px;
+}
+.owl2 .owl-nav button.owl-next {
+    margin-left: 420px;
+}
+/*--//for sale--*/
+/*--for sale--*/
+.navbar-tabs .nav-tab {
+    float:unset;
+    margin: 7px 15px 0 0;
+}
+.sale-rent-sec .col-lg-8 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.sale-rent-sec .real-estates {
+    margin: 30px 0px 0 0;
+}
+
+.sale-rent-sec .col-md-12{
+
+    margin-bottom: 30px;
+}
+.sale-rent-sec .content .image {
+    width: 100%;
+}
+.sale-rent-sec .content .image .bottom {
+
+    top: 85% !important;
+}
+.sale-rent-sec .content .info p, 
+.sale-rent-sec .second-group .content .info p {
+    font-size: 11px;
+}
+
+.sale-rent-sec .col-sm-4 {
+    padding-left: 15px;
+}
+.owl2 .owl-nav button.owl-next {
+    margin-left: 215px;
+}
+
+/*--//for sale--*/
+/*--first estate--*/
+
+.estate-header ul {
+    margin-right:0;
+}
+.estate-header .left {
+    float: unset;
+    margin: 20px auto 0;
+    display: block;
+    text-align: center;
+}
+.share-social {
+   
+    left:66%;
+}
+.estate-header ul .share-social a {
+    display: table;
+}
+.estate-header ul .share-social::before {
+
+    position: absolute;
+    top: 5%;
+}
+.estate-details .image .registration, .details-sec .registration {
+    position: unset;
+    top: 0;
+    right: 0;
+    width: 100%;
+    margin-top: 30px;
+    height: unset !important;
+
+}
+.estate-details .image .overlay-list {
+  
+    margin: 20px;
+}
+.details-sec .first-group .content {
+    padding: 25px;
+}
+.details-sec .adresss .inline,
+.details-sec .content .alert .inline,
+.details-sec .features .inline{
+    display: block !important;
+}
+
+.details-sec .content .alert ul {
+    margin-right:0;
+}
+.details-sec .content .list {
+    margin: 0 0
+}
+
+.details-sec .rebort {
+    width: 100%;
+}
+
+.morris-hover.morris-default-style{
+
+    right:0 !important;
+    left: unset !important;
+}
+
+/*--//first estate--*/
+/*--my account--*/
+.myaccount-sec {
+    padding: 0 10px;
+}
+.myaccount-sec .myaccount-content, 
+.myaccount-sec .estate-notfound {
+    margin: 30px 0px 0 0;
+}
+.myaccount-sec  .navbar-tabs .nav-tab {
+    
+    margin:20px 0px 0;
+}
+.myaccount-sec .content .details-button {
+    margin-top: -20px;
+}
+/*--//my account--*/
+/*--compare--*/
+.compare-estate-sec img{
+
+    width:unset;
+    height: unset;
+}
+/*--//compare--*/
+}
+@media screen and (max-width:425px) and (min-width:376px){
+
+      /*--home--*/
+      .top-header ul li a span{
+
+        display: none;
+       
+    }
+ 
+    .navbar-light .navbar {
+        padding: 0;
+        margin: 0 10px;
+    }
+    .navbar-light .navbar-nav {
+        margin-right:0;
+        text-align: center;
+    }
+ 
+    .toggle-navbar{
+ 
+        display:block;
+        opacity:0;
+        visibility: hidden;
+    }
+    .toggle-navbar.active{
+ 
+        opacity:1;
+        visibility:visible;
+    }
+    .navbar-light .navbar-left .nav-item {
+        margin-left: 20px;
+    }
+    .navbar-light .navbar-left  .nav-item:nth-child(3){
+ 
+        display:none;
+    }
+    .navbar-light .navbar-left .nav-item .modalup{
+ 
+        display: none;
+    }
+    .navbar-light .navbar-left .nav-item  .user-icon{
+ 
+        display:block;
+    
+    }
+    .navbar-nav .submenu.active{
+ 
+        opacity:1;
+        visibility: visible;
+        transform: translateY(13px)
+    }
+ 
+    .navbar-light .navbar .nav-toggle{
+ 
+        display: block;
+    }
+    .search-sec .form-inline {
+         border:unset;
+         border-radius: 4px;
+    }
+    .search-sec .first-search-form{
+ 
+        display: none;
+    }
+    .search-sec .second-search-form{
+ 
+        display: block;
+    }
+    .search-sec .second-accordion{
+ 
+        display: block;
+    }
+    .search-sec .form-group {
+        position: relative;
+    
+        margin-bottom: 0;
+    }
+    .search-sec .col-sm-12{
+     margin-bottom: 30px;
+    }
+    .search-sec .advance-btn,
+    .search-sec .input-group-prepend .input-group-text {
+        color: #cccccc !important;
+        font-size: 18px;
+      
+    }
+ 
+    .search-sec input[type="search"] {
+        width: 280px;
+        padding: .375rem 0;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+   
+    .search-sec input[type="search"]::placeholder{
+        
+        color:#a7a1a1;
+    }
+ 
+    .search-sec .input-group-prepend {
+        position: relative;;
+        top:0;
+    }
+ 
+    .accordion .first-body{
+        border-top: 1px solid #cccccc;
+ 
+    }
+    .search-sec .btnn {
+        border-radius: 4px 4px 4px 4px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .search-sec .btnn i{
+    text-align: right;
+    font-size: 12px;
+    position: relative;
+    left: 45%;
+    }
+    .rebort {
+      
+        width: 95%;
+    }
+
+    .main-slide {
+
+        height: 100vh;
+    }
+       
+       .main-slide iframe{
+    
+        height: 100vh;
+    }
+       .main-slide .all-side {
+       
+        padding: 55px 50px 0;
+    }
+       .main-slide .side-2 {
+        float: unset;
+    }
+        .main-slide .overlay .side img {
+            width: 75px;
+    }
+    .main-slide .overlay .side h2 {
+        font-size: 18px;
+    }
+    .main-slide .overlay .side p {
+        font-size: 12px;
+    }
+    .main-slide .overlay .side h3 {
+        font-size: 15px;
+    }
+    .advance-estate-sec .image .bottom{
+        top: 70%;
+    }
+    .advance-estate-sec .image .b2{
+ 
+        top:60%;
+ 
+    }
+    .advance-estate-sec .image .bottom .list-inline {
+        margin-left:70px;
+    }
+    .advance-estate-sec .image .bottom .actions{
+ 
+        margin-left:15px;
+ 
+    }
+    .area-kind-sec .image img {
+        height: 250px !important;
+    }
+    .area-kind-sec .image .overlay .content {
+       
+        padding: 100px 0;
+    }
+    .add-estate .content .add-now{
+ 
+        width: 55%;
+    }
+   
+    .add-estate .search-estate .text h2 {
+ 
+        text-align: center;
+    }
+    .add-estate .search-estate {
+        
+        text-align: center;
+    }
+    .add-estate .search-estate ul{
+ 
+        margin-bottom:30px;
+    }
+    footer .col-lg-3 {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: 0;
+        margin-bottom:30px;
+    }
+    /*--//home--*/
+    /*--add estate--*/
+
+    .description-sec {
+    
+        padding: 40px 15px;
+    }
+    
+    .description-sec .accordion .card-header {
+       
+        padding: 30px 21px 20px 0px !important;
+    }
+    .inputs {
+        padding: 10px 0 50px !important;
+    }
+    .description-sec .uploading {
+        padding: 21px 0 40px !important;
+    }
+    
+    .description-sec .accordion .details-form .form-group {
+        padding: 2px 0px !important; 
+    }
+    .description-sec .accordion .details-form {
+        padding: 10px 7px 30px !important;
+    }
+    .description-sec .accordion .check-form {
+        padding: 21px 7px 50px !important;
+    }
+    
+   .accordion .col-md-6 {
+    padding-right: 15;
+}
+.description-sec .dropdown {
+    width: 100% !important;
+}
+
+ /*--//add estate--*/
+    /*--contact--*/
+    .contact-sec .content {
+    
+        margin: 30px 0px 0 
+       }
+       .contact-sec .rebort {
+       
+        width: 90%;
+       
+    }
+    /*--//contact--*/
+    /*--about--*/
+    .about-sec, .contact-sec{
+        padding: 0 15px;
+    }
+    .about-sec, .contact-sec,.agents-sec{
+        padding: 0 !important;
+    }
+    .agents-sec .content, .about-sec .content, .contact-sec .content {
+  
+        width: 100%;
+        margin: 30px 0px 0 0;
+    }
+    .about-sec .content .components .col-lg-6:nth-child(2) p {
+        text-align: right;
+    }
+    /*--//about--*/
+    /*--agents--*/
+    .agents-sec, 
+    .about-sec, 
+    .contact-sec,
+    .compare-estate-sec, 
+    .myaccount-sec {
+        padding: 0 !important;
+    }
+.agents-sec .col-md-12{
+
+    margin:0 auto 30px;
+    text-align: center;
+}
+
+/*--//agents--*/
+/*--first agents--*/
+.agents-sec .text h2, 
+.about-sec .text h2,
+ .contact-sec .text h2, 
+ .compare-estate-sec .text h2,
+  .myaccount-sec .text h2 {
+    font-size: 20px;
+}
+.agents-sec hr, .agents-related-sec hr {
+    width: 100%;
+}
+.every-agents-sec  .col-md-12 {
+    margin: 0 auto 30px;
+}
+.agents-related-sec .all-sec {
+    width: 100%;
+    margin: 0 0;
+}
+.agents-related-sec .agents-related-content .image .bottom{
+
+    top:80%;
+}
+.agents-related-sec .agents-related-content .content .details-button {
+    position: absolute;
+    left: 5%;
+}
+.every-agents-sec .form input, .every-agents-sec .form textarea {
+    width: 100%;
+}
+.every-agents-sec .rebort {
+    width: 100%;
+}
+.agents-related-sec .agents-related-content .content .top-list:nth-child(2), 
+.sale-rent-sec .content .top-list:nth-child(2) {
+  
+    right: 0%;
+}
+.every-agents-sec .overlay {
+   
+    transform: translate(-25%,20%);
+}
+/*--//first agents--*/
+/*--strap--*/
+.strap-sec .col-lg-4 {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+}
+.strap-sec .content .contact {
+  
+    width: 85%;
+}
+/*--//strap--*/
+/*--for sale--*/
+.navbar-tabs .nav-tab {
+    float:unset;
+    margin: 7px 15px 0 0;
+}
+.sale-rent-sec .col-lg-8 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.sale-rent-sec .real-estates {
+    margin: 30px 0px 0 0;
+}
+
+.sale-rent-sec .col-md-12{
+
+    margin-bottom: 30px;
+}
+.sale-rent-sec .content .image {
+    width: 100%;
+}
+.sale-rent-sec .content .image .bottom {
+
+    top: 85% !important;
+}
+
+.sale-rent-sec .col-sm-4 {
+    padding-left: 15px;
+}
+.owl2 .owl-nav button.owl-next {
+    margin-left: 260px;
+}
+/*--//for sale--*/
+/*--first estate--*/
+
+.estate-header ul {
+    margin-right:0;
+}
+.estate-header .left {
+    float: unset;
+    margin: 20px auto 0;
+    display: block;
+    text-align: center;
+}
+.share-social {
+   
+    left: 64%;
+}
+.estate-header ul .share-social a {
+    display: table;
+}
+.estate-header ul .share-social::before {
+
+    position: absolute;
+    top: 5%;
+}
+.estate-details .image .registration, .details-sec .registration {
+    position: unset;
+    top: 0;
+    right: 0;
+    width: 100%;
+    margin-top: 30px;
+    height: unset !important;
+
+}
+.estate-details .image .overlay-list {
+  
+    margin: 20px;
+}
+.details-sec .first-group .content {
+    padding: 30px;
+}
+.details-sec .adresss .inline,
+.details-sec .content .alert .inline,
+.details-sec .features .inline{
+    display: block !important;
+}
+
+.details-sec .content .alert ul {
+    margin-right:0;
+}
+.details-sec .content .list {
+    margin: 0 0
+}
+
+.details-sec .rebort {
+    width: 100%;
+}
+.morris-hover.morris-default-style{
+
+    right:0 !important;
+    left: unset !important;
+}
+
+/*--//first estate--*/
+/*--my account--*/
+.myaccount-sec {
+    padding: 0 10px;
+}
+.myaccount-sec .myaccount-content, 
+.myaccount-sec .estate-notfound {
+    margin: 30px 0px 0 0;
+}
+.myaccount-sec  .navbar-tabs .nav-tab {
+    
+    margin:20px 0px 0;
+}
+/*--//my account--*/
+/*--compare--*/
+.compare-estate-sec img{
+
+    width:unset;
+    height: unset;
+}
+/*--//compare--*/
+
+
+
+}
+@media screen and (max-width:575px) and (min-width:426px){
+
+      /*--home--*/
+      .top-header ul li a span{
+
+        display: none;
+       
+    }
+ 
+    .navbar-light .navbar {
+        padding: 0;
+        margin: 0 10px;
+    }
+    .navbar-light .navbar-nav {
+        margin-right:0;
+        text-align: center;
+    }
+    .toggle-navbar{
+ 
+        display:block;
+        opacity:0;
+        visibility: hidden;
+    }
+    .toggle-navbar.active{
+ 
+        opacity:1;
+        visibility:visible;
+    }
+    .navbar-light .navbar-left .nav-item {
+        margin-left: 20px;
+    }
+    .navbar-light .navbar-left  .nav-item:nth-child(3){
+ 
+        display:none;
+    }
+    .navbar-light .navbar-left .nav-item .modalup{
+ 
+        display: none;
+    }
+    .navbar-light .navbar-left .nav-item  .user-icon{
+ 
+        display:block;
+    
+    }
+    .navbar-nav .submenu.active{
+ 
+        opacity:1;
+        visibility: visible;
+        transform: translateY(13px)
+    }
+ 
+    .navbar-light .navbar .nav-toggle{
+ 
+        display: block;
+    }
+    .search-sec .form-inline {
+         border:unset;
+         border-radius: 4px;
+    }
+    .search-sec .first-search-form{
+ 
+        display: none;
+    }
+    .search-sec .second-search-form{
+ 
+        display: block;
+    }
+    .search-sec .second-accordion{
+ 
+        display: block;
+    }
+    .search-sec .form-group {
+        position: relative;
+        margin-bottom: 0;
+    }
+    .search-sec .col-sm-12{
+     margin-bottom: 30px;
+    }
+    .search-sec .advance-btn,
+    .search-sec .input-group-prepend .input-group-text {
+        color: #cccccc !important;
+        font-size: 18px;
+      
+    }
+ 
+    .search-sec input[type="search"] {
+        width: 350px;
+        padding: .375rem 0;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+   
+    .search-sec input[type="search"]::placeholder{
+        
+        color:#a7a1a1;
+    }
+ 
+    .search-sec .input-group-prepend {
+        position: relative;;
+        top:0;
+    }
+ 
+    .accordion .first-body{
+        border-top: 1px solid #cccccc;
+ 
+    }
+    .search-sec .btnn {
+        border-radius: 4px 4px 4px 4px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .search-sec .btnn i{
+    text-align: right;
+    font-size: 12px;
+    position: relative;
+    left: 45%;
+    }
+
+    .main-slide {
+
+        height: 100vh;
+       }
+       
+       .main-slide iframe{
+    
+        height: 100vh;
+       }
+       .main-slide .all-side {
+       
+        padding: 55px 50px 0;
+    }
+       .main-slide .side-2 {
+        float: unset;
+        }
+    .advance-estate-sec .image .bottom{
+        top: 75%;
+    }
+    .advance-estate-sec .image .b2{
+ 
+        top:65%;
+ 
+    }
+    .advance-estate-sec .image .bottom .list-inline {
+        margin-left:70px;
+    }
+    .advance-estate-sec .image .bottom .actions{
+ 
+        margin-left:15px;
+ 
+    }
+   
+ 
+    .add-estate .content .add-now{
+ 
+        width:45%;
+    }
+    .add-estate .search-estate .text h2 {
+ 
+        text-align: center;
+    }
+    .add-estate .search-estate {
+        
+        text-align: center;
+    }
+    .add-estate .search-estate ul{
+ 
+        margin-bottom:30px;
+    }
+    footer .col-lg-3 {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: 0;
+        margin-bottom:30px;
+    }
+    
+    /*--//home--*/
+     /*--add estate--*/
+
+     .description-sec {
+    
+        padding: 40px 15px;
+    }
+    
+    .description-sec .accordion .card-header {
+       
+        padding: 30px 21px 20px 0px !important;
+    }
+    .inputs {
+        padding: 10px 0 50px !important;
+    }
+    .description-sec .uploading {
+        padding: 21px 0 40px !important;
+    }
+    
+    .description-sec .accordion .details-form .form-group {
+        padding: 2px 0px !important; 
+    }
+    .description-sec .accordion .details-form {
+        padding: 10px 7px 30px !important;
+    }
+    .description-sec .accordion .check-form {
+        padding: 21px 7px 50px !important;
+    }
+   .accordion .col-md-6 {
+    padding-right: 15;
+}
+.description-sec .dropdown {
+    width: 100% !important;
+}
+
+   /*--//add estate--*/
+    /*--contact--*/
+    .contact-sec .content {
+    
+        margin: 30px 0px 0 
+       }
+       .contact-sec .rebort {
+       
+        width: 90%;
+  }
+    /*--//contact--*/
+     /*--about--*/
+     .about-sec, .contact-sec{
+        padding: 0 15px;
+    }
+     .about-sec, .contact-sec,.agents-sec{
+        padding: 0 !important;
+    }
+    .agents-sec .content, .about-sec .content, .contact-sec .content {
+  
+        width: 100%;
+        margin: 30px 0px 0 0;
+    }
+    .about-sec .content .components .col-lg-6:nth-child(2) p {
+        text-align: right;
+    }
+    /*--//about--*/
+    /*--agents--*/
+    .agents-sec, 
+    .about-sec, 
+    .contact-sec,
+    .compare-estate-sec, 
+    .myaccount-sec {
+        padding: 0 !important;
+    }
+.agents-sec .col-md-12{
+
+    margin:0 auto 30px;
+    text-align: center;
+}
+
+/*--//agents--*/
+/*--first agents--*/
+.agents-sec .text h2, 
+.about-sec .text h2,
+ .contact-sec .text h2, 
+ .compare-estate-sec .text h2,
+  .myaccount-sec .text h2 {
+    font-size: 20px;
+}
+.agents-sec hr, .agents-related-sec hr {
+    width: 100%;
+}
+.every-agents-sec  .col-md-12 {
+    margin: 0 auto 30px;
+}
+.agents-related-sec .all-sec {
+    width: 100%;
+    margin: 0 0;
+}
+.agents-related-sec .agents-related-content .image .bottom{
+
+    top:85%;
+}
+.agents-related-sec .agents-related-content .content .details-button {
+    position: absolute;
+    left: 5%;
+}
+.agents-related-sec .agents-related-content .content .top-list:nth-child(2), 
+.sale-rent-sec .content .top-list:nth-child(2) {
+  
+    right: 0%;
+}
+.every-agents-sec .overlay {
+   
+    transform: translate(-25%,30%);
+}
+.every-agents-sec .rebort {
+    width: 95%;
+}
+/*--//first agents--*/
+/*--strap--*/
+.strap-sec .col-lg-4 {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+}
+/*--//strap--*/
+/*--strap--*/
+.strap-sec .col-lg-4 {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+}
+.strap-sec .content .contact {
+  
+    width: 85%;
+}
+/*--//strap--*/
+/*--for sale--*/
+.sale-rent-sec .col-lg-8 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.sale-rent-sec .real-estates {
+    margin: 30px 0px 0 0;
+}
+.sale-rent-sec .col-md-12{
+
+    margin-bottom: 30px;
+}
+.sale-rent-sec .content .image {
+    width: 100%;
+}
+.sale-rent-sec .content .image .bottom {
+
+    top: 85% !important;
+}
+
+.sale-rent-sec .col-sm-4 {
+    padding-left: 15px;
+}
+.owl2 .owl-nav button.owl-next {
+    margin-left: 315px;
+}
+/*--//for sale--*/
+/*--first estate--*/
+
+.estate-header ul {
+    margin-right:0;
+}
+.estate-header .left {
+    float: unset;
+    margin: 20px auto 0;
+    display: block;
+    text-align: center;
+}
+.share-social {
+   
+    left: 62%;
+}
+.estate-header ul .share-social a {
+    display: table;
+}
+.estate-header ul .share-social::before {
+
+    position: absolute;
+    top: 5%;
+}
+.estate-details .image .registration, .details-sec .registration {
+    position: unset;
+    top: 0;
+    right: 0;
+    width: 100%;
+    margin-top: 30px;
+    height: unset !important;
+
+}
+.estate-details .image .overlay-list {
+  
+    margin: 20px;
+}
+.details-sec .adresss .inline,
+.details-sec .content .alert .inline,
+.details-sec .features .inline{
+    display: block !important;
+}
+
+.details-sec .rebort {
+    width: 80%;
+}
+.morris-hover.morris-default-style{
+
+    right:0 !important;
+    left: unset !important;
+}
+/*--//first estate--*/
+/*--my account--*/
+.myaccount-sec {
+    padding: 0 10px;
+}
+.myaccount-sec .myaccount-content, 
+.myaccount-sec .estate-notfound {
+    margin: 30px 0px 0 0;
+}
+.myaccount-sec  .navbar-tabs .nav-tab {
+    float:unset;
+    margin:20px 0px 0;
+}
+
+/*--//my account--*/
+/*--compare--*/
+.compare-estate-sec img{
+
+    width:unset;
+    height: unset;
+}
+/*--//compare--*/
+
+}
+@media screen and (max-width:768px) and (min-width:576px){
+    /*--home--*/
+    .top-header ul li a span{
+
+       display: none;
+      
+   }
+
+   .navbar-light .navbar {
+       padding: 0;
+       margin: 0 10px;
+   }
+   .navbar-light .navbar-nav {
+    margin-right:0;
+    text-align: center;
+}
+
+   .toggle-navbar{
+
+       display:block;
+       opacity:0;
+       visibility: hidden;
+   }
+   .toggle-navbar.active{
+
+       opacity:1;
+       visibility:visible;
+   }
+   .navbar-light .navbar-left .nav-item {
+       margin-left: 20px;
+   }
+   .navbar-light .navbar-left  .nav-item:nth-child(3){
+
+       display:none;
+   }
+   .navbar-light .navbar-left .nav-item .modalup{
+
+       display: none;
+   }
+   .navbar-light .navbar-left .nav-item  .user-icon{
+
+       display:block;
+   
+   }
+   .navbar-nav .submenu.active{
+
+       opacity:1;
+       visibility: visible;
+       transform: translateY(13px)
+   }
+
+   .navbar-light .navbar .nav-toggle{
+
+       display: block;
+   }
+   .search-sec .form-inline {
+        border:unset;
+        border-radius: 4px;
+   }
+   .search-sec .first-search-form{
+
+       display: none;
+   }
+   .search-sec .second-search-form{
+
+       display: block;
+   }
+   .search-sec .second-accordion{
+
+       display: block;
+   }
+   .search-sec .advance-btn,
+   .search-sec .input-group-prepend .input-group-text {
+       color: #cccccc !important;
+       font-size: 18px;
+     
+   }
+
+   .search-sec input[type="search"] {
+       width: 550px;
+       padding: .375rem 0;
+       padding-left: 0 !important;
+       padding-right: 0 !important;
+   }
+  
+   .search-sec input[type="search"]::placeholder{
+       
+       color:#a7a1a1;
+   }
+
+   .search-sec .input-group-prepend {
+       position: relative;;
+       top:0;
+   }
+
+   .accordion .first-body{
+       border-top: 1px solid #cccccc;
+
+   }
+   .search-sec .btnn {
+       border-radius: 4px 4px 4px 4px;
+       width: 100%;
+       margin-top: 10px;
+   }
+   .search-sec .btnn i{
+   text-align: right;
+   font-size: 12px;
+   position: relative;
+   left: 45%;
+   }
+
+   .main-slide {
+
+    height: 100vh;
+   }
+   
+   .main-slide iframe{
+
+    height: 100vh;
+   }
+   .main-slide .all-side {
+   
+    padding: 55px 50px 0;
+}
+   .main-slide .side-2 {
+    float: unset;
+    }
+  
+   .advance-estate-sec .image .b2{
+
+       top:55%;
+
+   }
+   .advance-estate-sec .image .bottom .list-inline {
+       margin-left:70px;
+   }
+   .advance-estate-sec .image .bottom .actions{
+
+
+       margin-left:15px;
+
+   }
+
+   .add-estate .content .add-now{
+
+       width:45%;
+   }
+   .add-estate .search-estate .text h2 {
+
+       text-align: center;
+   }
+   .add-estate .search-estate {
+       
+       text-align: center;
+   }
+   .add-estate .search-estate ul{
+
+       margin-bottom:30px;
+   }
+   footer .col-lg-3 {
+       padding-left: 15px;
+       padding-right: 15px;
+       margin-left: 0;
+       margin-bottom:30px;
+   }
+   
+   /*--//home--*/
+    /*--add estate--*/
+    /*--add estate--*/
+
+.description-sec {
+    
+    padding: 40px 15px;
+}
+/*--//add estate--*/
+   .accordion .col-md-6 {
+    padding-right: 15px;
+    
+}
+.description-sec .dropdown {
+    width: 100% !important;
+}
+   /*--//add estate--*/
+    /*--contact--*/
+    .contact-sec .content {
+    
+        margin: 30px 0px 0 
+       }
+    /*--//contact--*/
+    /*--about--*/
+    .about-sec, .contact-sec{
+        padding: 0 15px;
+    }
+    .agents-sec .content, .about-sec .content, .contact-sec .content {
+  
+        width: 100%;
+        margin: 30px 0px 0 0;
+    }
+    .about-sec .content .components .col-lg-6:nth-child(2) p {
+        text-align: right;
+    }
+    /*--//about--*/
+    /*--agents--*/
+    .agents-sec, 
+    .about-sec, 
+    .contact-sec,
+    .compare-estate-sec, 
+    .myaccount-sec {
+        padding: 0 !important;
+    }
+.agents-sec .col-md-12{
+
+    margin:0 auto 30px;
+    text-align: center;
+}
+
+/*--//agents--*/
+/*--first agents--*/
+.agents-sec hr, .agents-related-sec hr {
+    width: 100%;
+}
+.every-agents-sec  .col-md-12 {
+    margin: 0 auto 30px;
+    text-align: right !important;
+}
+.agents-related-sec .all-sec {
+    width: 100%;
+    margin: 0 0;
+}
+.agents-related-sec .agents-related-content .image .bottom{
+
+    top:85%;
+}
+.agents-related-sec .agents-related-content .content .details-button {
+    position: absolute;
+    left: 5%;
+}
+.agents-related-sec .agents-related-content .content .top-list:nth-child(2), 
+.sale-rent-sec .content .top-list:nth-child(2) {
+  
+    right: 0%;
+}
+/*--//first agents--*/
+/*--strap--*/
+.strap-sec .col-lg-4 {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+}
+.strap-sec .content .contact {
+  
+    width: 85%;
+}
+/*--//strap--*/
+/*--for sale--*/
+.sale-rent-sec .real-estates {
+    margin: 30px 0px 0 0;
+}
+.sale-rent-sec .col-md-12{
+
+    margin-bottom: 30px;
+}
+.owl2 .owl-nav button.owl-next {
+    margin-left: 550px;
+}
+
+.sale-rent-sec .col-sm-4 {
+    padding-left: 15px;
+}
+
+/*--//for sale--*/
+/*--first estate--*/
+
+.estate-header ul {
+    margin-right:0;
+}
+.estate-header .left {
+    float: unset;
+    margin: 20px auto 0;
+    display: block;
+    text-align: center;
+}
+.share-social {
+   
+    right: 14%;
+    left: unset;
+}
+.estate-details .image .registration, .details-sec .registration {
+    position: unset;
+    top: 0;
+    right: 0;
+    width: 100%;
+    margin-top: 30px;
+    height: unset !important;
+}
+.estate-details .image .overlay-list {
+  
+    margin: 20px;
+}
+.details-sec .adresss .inline,
+.details-sec .content .alert .inline,
+.details-sec .features .inline{
+    display: block !important;
+}
+
+.details-sec .rebort {
+    width: 70%;
+}
+.morris-hover.morris-default-style{
+
+    right:0 !important;
+    left: unset !important;
+}
+.sale-rent-sec .content .info p,
+ .sale-rent-sec .second-group .content .info p {
+    font-size: 11px;
+}
+/*--//first estate--*/
+/*--my account--*/
+.myaccount-sec {
+    padding: 0 10px;
+}
+.myaccount-sec .myaccount-content, 
+.myaccount-sec .estate-notfound {
+    margin: 30px 0px 0 0;
+}
+/*--//my account--*/
+/*--compare--*/
+.compare-estate-sec img{
+
+    width:unset;
+    height: unset;
+}
+/*--//compare--*/
+
+}
+@media screen and (max-width:991px) and (min-width:769px){
+   /*--home--*/
+   .top-header ul li a span{
+
+       display: none;
+      
+   }
+
+   .navbar-light .navbar {
+       padding: 0;
+       margin: 0 10px;
+   }
+   .navbar-light .navbar-nav {
+    margin-right:0;
+    text-align: center;
+}
+
+   .toggle-navbar{
+
+       display:block;
+       opacity:0;
+       visibility: hidden;
+
+   }
+   .toggle-navbar.active{
+
+       opacity:1;
+       visibility:visible;
+   }
+   .navbar-light .navbar-left .nav-item {
+       margin-left: 20px;
+   }
+   .navbar-light .navbar-left  .nav-item:nth-child(3){
+
+       display:none;
+   }
+   .navbar-light .navbar-left .nav-item .modalup{
+
+       display: none;
+   }
+   .navbar-light .navbar-left .nav-item  .user-icon{
+
+       display:block;
+   
+   }
+   .navbar-nav .submenu.active{
+
+       opacity:1;
+       visibility: visible;
+       transform: translateY(13px)
+   }
+
+   .navbar-light .navbar .nav-toggle{
+
+       display: block;
+   }
+   .search-sec .form-inline {
+        border:unset;
+        border-radius: 4px;
+   }
+   .search-sec .first-search-form{
+
+       display: none;
+   }
+   .search-sec .second-search-form{
+
+       display: block;
+   }
+   .search-sec .second-accordion{
+
+       display: block;
+   }
+   .search-sec .advance-btn,
+   .search-sec .input-group-prepend .input-group-text {
+       color: #cccccc !important;
+       font-size: 18px;
+     
+   }
+
+   .search-sec input[type="search"] {
+       width: 550px;
+       padding: .375rem 0;
+       padding-left: 0 !important;
+       padding-right: 0 !important;
+   }
+   .search-sec input[type="search"]::placeholder{
+       
+       color:#a7a1a1;
+   }
+
+   .search-sec .input-group-prepend {
+       position: relative;;
+       top:0;
+   }
+
+   .accordion .first-body{
+       border-top: 1px solid #cccccc;
+
+   }
+   .search-sec .btnn {
+       border-radius: 4px 4px 4px 4px;
+       width: 100%;
+       margin-top: 10px;
+   }
+   .search-sec .btnn i{
+   text-align: right;
+   font-size: 12px;
+   position: relative;
+   left: 45%;
+   }
+   .advance-estate-sec .image .bottom {
+       position: absolute;
+       top: 65%;
+   }
+   .advance-estate-sec .image .b2{
+
+       top:55%;
+
+   }
+   .advance-estate-sec .image .bottom .list-inline {
+       margin-left:70px;
+   }
+   .advance-estate-sec .image .bottom .actions{
+
+
+       margin-left:15px;
+
+   }
+
+   .add-estate .content .add-now{
+
+       width:45%;
+   }
+   .add-estate .search-estate .text h2 {
+
+       text-align: center;
+   }
+   .add-estate .search-estate {
+       
+       text-align: center;
+   }
+   .add-estate .search-estate ul{
+
+       margin-bottom:30px;
+   }
+   footer .col-lg-3 {
+       padding-left: 15px;
+       padding-right: 15px;
+       margin-left: 0;
+       margin-bottom:30px;
+   }
+   /*--//home--*/
+    /*--add estate--*/
+    .accordion .col-md-6 {
+        padding-right: 15;
+    }
+    .description-sec .dropdown {
+        width: 100% !important;
+    }
+
+       /*--//add estate--*/
+       /*--contact--*/
+    .contact-sec .content {
+    
+    margin: 30px 0px 0 
+   }
+/*--//contact--*/
+
+ /*--about--*/
+ .about-sec, .contact-sec{
+    padding: 0 15px;
+}
+.agents-sec .content, .about-sec .content, .contact-sec .content {
+
+    width: 100%;
+    margin: 30px 0px 0 0;
+}
+.about-sec .content .components .col-lg-6:nth-child(2) p {
+    text-align: right;
+}
+/*--//about--*/
+/*--agents--*/
+.agents-sec .col-md-12{
+
+    margin:0 auto 30px;
+    text-align: center;
+}
+
+/*--//agents--*/
+/*--first agents--*/
+.agents-sec hr, .agents-related-sec hr {
+    width: 100%;
+}
+.every-agents-sec  .col-md-12 {
+    margin: 0 auto 30px;
+    text-align: right !important;
+}
+.agents-related-sec .all-sec {
+    width: 100%;
+    margin: 0 0;
+}
+.agents-related-sec .agents-related-content .image .bottom{
+
+    top:85%;
+}
+.agents-related-sec .agents-related-content .content .details-button {
+    position: absolute;
+    left: 5%;
+}
+.agents-related-sec .agents-related-content .content .top-list:nth-child(2), 
+.sale-rent-sec .content .top-list:nth-child(2) {
+  
+    right: 0%;
+}
+/*--//first agents--*/
+/*--strap--*/
+.strap-sec .col-lg-4 {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+}
+.strap-sec .content .contact {
+  
+    width: 85%;
+}
+/*--//strap--*/
+/*--for sale--*/
+.sale-rent-sec .real-estates {
+    margin: 30px 0px 0 0;
+}
+.sale-rent-sec .col-md-12{
+
+    margin-bottom: 30px;
+}
+.owl2 .owl-nav button.owl-next {
+    margin-left: 550px;
+}
+.sale-rent-sec .col-sm-4 {
+    padding-left: 15px;
+}
+
+/*--//for sale--*/
+/*--first estate--*/
+.estate-header .left {
+    float:unset;
+}
+.estate-header ul {
+    margin-right:0;
+}
+.estate-header .left {
+    float: unset;
+    margin: 20px auto 0;
+    display: block;
+    text-align: center;
+}
+.share-social {
+   
+    right: 14%;
+    left: unset;
+}
+.estate-details .image .registration, .details-sec .registration {
+    position: unset;
+    top: 0;
+    right: 0;
+    width: 100%;
+    margin-top: 30px;
+    height: unset !important;
+
+}
+.estate-details .image .overlay-list {
+  
+    margin: 20px;
+}
+.details-sec .adresss .inline,
+.details-sec .content .alert .inline,
+.details-sec .features .inline{
+    display: block !important;
+}
+
+.details-sec .rebort {
+    width: 70%;
+}
+.sale-rent-sec .content .info p,
+ .sale-rent-sec .second-group .content .info p {
+    font-size: 11px;
+}
+/*--//first estate--*/
+/*--my account--*/
+.myaccount-sec {
+    padding: 0 10px;
+}
+.myaccount-sec .myaccount-content, 
+.myaccount-sec .estate-notfound {
+    margin: 30px 0px 0 0;
+}
+/*--//my account--*/
+
+}
+@media screen and (max-width:1024px) and (min-width:992px){
+/*--home--*/
+.navbar-light .navbar {
+   margin: 0 18px;
+}
+.navbar-light .navbar-right .nav-item>.nav-link {
+   padding: 1.6rem 0.5rem;
+}
+.navbar-light .navbar-nav {
+
+   margin-right: 10px;
+}
+.search-sec input[type="search"] {
+
+   width: 390px;
+}
+
+.add-estate .content .add-now {
+  
+   width: 23%;
+}
+.advance-estate-sec .image .bottom .list-inline{
+
+   margin-left: 40px;
+   
+}
+.advance-estate-sec .image .bottom .actions{
+
+   margin-left: 15px;
+   
+}
+.search-sec .second-accordion{
+
+   display: none;
+}
+/*--//home--*/
+/*--add estate--*/
+
+.description-sec {
+    
+    padding: 40px 15px;
+}
+/*--//add estate--*/
+
+/*--contact--*/
+.contact-sec .content {
+    
+    margin: 30px 0px 0 
+}
+/*--//contact--*/
+/*--about--*/
+
+.agents-sec .content, .about-sec .content, .contact-sec .content {
+  
+    width: 90%;
+    margin: 30px 0px 0 0;
+}
+/*--//about--*/
+/*--first agents--*/
+
+.every-agents-sec .rebort {
+    width: 95%;
+}
+.every-agents-sec .rebort .container {
+    font-size: 11px;
+}
+/*--//first agents--*/
+/*--strap--*/
+.strap-sec .col-lg-4 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/*--//strap--*/
+/*--for sale--*/
+.sale-rent-sec .real-estates {
+    margin: 30px 0px 0 0;
+}
+.sale-rent-sec .content .image {
+    width: 215px;
+}
+.owl2 .owl-nav button.owl-next {
+    margin-left: 160px;
+}
+
+/*--//for sale--*/
+/*--first estate--*/
+
+.estate-details .image .registration, .details-sec .registration {
+    max-height: 520px;
+}
+.details-sec .adresss .inline,
+.details-sec .content .alert .inline,
+.details-sec .features .inline{
+    display: block !important;
+}
+
+.details-sec .rebort {
+    width: 70%;
+}
+.sale-rent-sec .content .info p,
+ .sale-rent-sec .second-group .content .info p {
+    font-size: 11px;
+}
+/*--//first estate--*/
+
+/*--agents--*/
+
+.agents-sec hr{
+    width: 90%;
+    
+}
+/*--//agents--*/
+
+}
+/*--//media query--*/
